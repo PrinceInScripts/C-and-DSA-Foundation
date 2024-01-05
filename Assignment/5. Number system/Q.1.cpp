@@ -1,13 +1,18 @@
-//Decimal to Binary Number
+//Q1 - Print the sum of the first 5 decimal numbers from 1 to 5 in binary format.
+
 
 #include<iostream>
 using namespace std;
 
 int main(){
-     int d_number,l_digit,ans=0,power=1;
+    int sum=0;
+    for(int i=1;i<=5;i++){
+        sum+=i;
+    }
 
-    cout<<"Enter Decimal  Number : ";
-    cin>>d_number;
+     int d_number=sum,l_digit,ans=0,power=1;
+
+    
     int decimal_num=d_number;
 
     while(d_number>0){
@@ -20,8 +25,4 @@ int main(){
      cout<<"Binary number of Decimal "<<decimal_num<<" number is "<<ans;
 
     return 0;
-
-
 }
-
-
