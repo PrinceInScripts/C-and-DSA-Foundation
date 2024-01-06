@@ -1,0 +1,5 @@
+/*
+What is an Array
+The array is a data struture which store a collection of homogoenous items.
+they have contiguous memory
+*/
